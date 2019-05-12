@@ -24,7 +24,7 @@ const loginOrProfileRoutes = createSwitchNavigator(
     Auth: authRouter
 },
 {
-    initialRouteName: 'Profile'
+    initialRouteName: 'Auth'
 })
 
 const MenuRoutes = createBottomTabNavigator({
