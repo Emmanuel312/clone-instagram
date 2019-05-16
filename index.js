@@ -5,6 +5,10 @@ import React from 'react'
 import {Provider} from 'react-redux'
 import storeConfig from './src/store/storeConfig'
 
+import axios from 'axios'
+axios.defaults.baseURL = 'https://fir-app-43252.firebaseio.com/'
+
+
 const store = storeConfig()
 const Redux = () =>
 (
